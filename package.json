@@ -1,0 +1,29 @@
+{
+  "name": "shopping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raju-123/shopping.git"
+  },
+  "author": "Rajeev R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raju-123/shopping/issues"
+  },
+  "homepage": "https://github.com/Raju-123/shopping#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-group-routes": "^1.1.0",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.3"
+  }
+}
